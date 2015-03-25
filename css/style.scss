@@ -1,0 +1,44 @@
+@import 'reset';
+@import 'mixins';
+
+style[contenteditable] {
+	display: block;
+	background: blue;
+	color: white;
+	height: 100%;
+	white-space: pre;
+}
+
+#editor_wrapper {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  box-sizing: border-box;
+  -webkit-transition: all .5s linear;
+
+  #editor {
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  background: tomato;
+	}
+
+	#minmax_button {
+	  display: inline-block;
+	  position: absolute;
+	  width: 20px;
+	  height: 20px;
+	  right: 0;
+	  background: lightgreen;
+	}
+}
+
+.minimize {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 10px;
+  overflow: hidden;
+}
+

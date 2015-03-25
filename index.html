@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>CSS On the go editor</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div id="editor_wrapper">
+		<div id="editor">
+			<style contenteditable>
+			.box {
+				background: blue;
+				position: absolute;
+				width: 100px;
+				height: 100px;
+				bottom: 0;
+				left: 0;
+				background: lightskyblue;
+			}
+			</style>
+		</div>
+		<span id="minmax_button">_</span>
+	</div>
+
+	<div class="box"></div> 
+</body>
+</html>

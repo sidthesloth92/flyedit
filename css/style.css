@@ -1,0 +1,82 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+style[contenteditable] {
+  display: block;
+  background: blue;
+  color: white;
+  height: 100%;
+  white-space: pre; }
+
+#editor_wrapper {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  box-sizing: border-box;
+  -webkit-transition: all .5s linear; }
+  #editor_wrapper #editor {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: tomato; }
+  #editor_wrapper #minmax_button {
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    background: lightgreen; }
+
+.minimize {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 10px;
+  overflow: hidden; }
+
+/*# sourceMappingURL=style.css.map */
